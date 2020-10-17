@@ -19,8 +19,8 @@ ___#附加要求<br>___
 ___#实验设计UML构图___<br>
 ![UML图](https://github.com/Traveller-g/JavaProject/blob/main/img/uml%E5%BB%BA%E6%A8%A1.jpg)<br><br>
 ___#核心代码___<br>
-HardDisk | CPU | PC
----- | ----- | ------
+HardDisk | CPU | PC | Test
+---- | ----- | ------ | -------
 ```
 //HardDisk 构造方法：将形参的值赋值给实参
 HardDisk(int amount,String brank,int rom){
