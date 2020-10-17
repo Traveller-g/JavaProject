@@ -78,4 +78,17 @@ void show() {
 			System.out.println("此品牌硬盘内存"+disk.getRom()+"GB大小不存在！！！");
 		}
 ```
-___#程序运行结果___
+```
+	//程序主函数为cpu && disk设置值，并通过pc输出;
+	public static void main(String[] args) {
+		CPU cpu = new CPU(2200, "AMD", 32);
+		HardDisk disk = new HardDisk(459, "西部数据", 500);
+		PC pc = new PC();
+		pc.setCpu(cpu);
+		pc.setDisk(disk);
+		pc.show();
+	}
+	
+```
+___#程序运行结果___<br>
+![运行结果](https://github.com/Traveller-g/JavaProject/blob/main/img/1602919158.jpg)
