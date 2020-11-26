@@ -1,5 +1,6 @@
-#Java应用程序有4个类名称分别是PC，CPU，HardDisk和Test，其中Test是主类<br>
+#Java应用程序有4个类名称分别是PC，CPU，HardDisk和Test，其中Test是主类
 ---
+## 计G201 郭纪伟 2020322076
 ___#程序要求<br>___
 1.CPU要求getSpeed()返回Speed的值，要求setSpeed(int m)方法将参数m的值赋值给Speed;<br>
 2.HardDisk类要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋值给amount;<br>
